@@ -2,7 +2,7 @@ Remove-Module *
 Import-Module SendMail,UACTranslator,CreateHtml
 # Variable ADAPT AS REQUIRED
 $domain = 'NA'
-$SendTo = aliou.traore-ext@socgen.com
+$SendTo = phil.g@hotmail.com
 # Variable DO NOT TOUCH
 $temporaryResultsFilePath = ".\" + $domain.ToLower() + ".all.groups.xml"
 $ResultFilePath = ".\" + $domain.ToLower() + ".empty.groups.csv"
